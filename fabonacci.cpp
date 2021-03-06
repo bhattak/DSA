@@ -15,7 +15,7 @@ int main(){
             cout<<cur<<" ";
         }
         else{
-            next=cur+prev;
+            next=cur + prev;
             cout<<next<< " ";
             prev=cur;
             cur=next;
